@@ -1,0 +1,122 @@
+body {
+    background-image: url("../images/background.svg");
+    margin: 0;
+    background-color: #EBEBEB;
+    min-height: 1000px;
+}
+
+header {
+    width: inherit;
+    height: 205px;
+}
+
+
+.logo_container {
+    margin: auto;
+    width: 499px;
+    height: 205px;
+
+}
+
+main {
+    min-height: 500px;
+}
+
+.main_container {
+    margin: auto;
+    background: #FEFEFE;
+    width: 1107px;
+    min-height: 500px;
+}
+
+#intro-text {
+    font-size: 22px;
+    font-family: sans-serif;
+    padding-top: 42px;
+    padding-left: 42px;
+}
+
+.inner_container {
+    padding-top: 5px;
+    width: 1022px;
+    min-height: 70px;
+    margin: auto;
+}
+
+
+.element_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #D9D9D9;
+    height: 67px;
+}
+
+.element_container:hover {
+    background: #D9D9D9;
+}
+
+#first {
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #D9D9D9;
+
+}
+
+.status_image {
+    margin-left: 5px;
+    width: 43px;
+    height: 43px;
+}
+
+#practice_test_name {
+    position: absolute;
+    left: 69px;
+    font-size: 17px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #3F88DF;
+    background: white;
+    border: #3F88DF 1px solid;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    width: 200px;
+    height: 42px;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    border: #3F88DF 2px solid;
+    font-weight: 600;
+    background: #D9D9D9;
+
+
+}
+
+
+#practice {
+    color: #3F88DF;
+    background: white;
+    border: #3F88DF 1px solid;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 200px;
+    height: 42px;
+    margin-right: 5px;
+}
+
+#practice:hover {
+    border: #3F88DF 2px solid;
+    background: #D9D9D9;
+}
